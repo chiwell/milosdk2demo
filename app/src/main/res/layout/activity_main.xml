@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.milook.sdk.demo.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fl_main"
+        android:layout_margin="0dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt_camera"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Camera" />
+
+            <ToggleButton
+                android:id="@+id/bt_slim"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Slim"
+                android:textOn="Slim"
+                android:textOff="Slim"/>
+
+            <ToggleButton
+                android:id="@+id/bt_beautify"
+                android:layout_width="90dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Beautify"
+                android:textOn="Beautify"
+                android:textOff="Beautify"/>
+
+            <ToggleButton
+                android:id="@+id/bt_mask"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Mask"
+                android:textOn="Mask"
+                android:textOff="Mask"
+                />
+
+            <ToggleButton
+                android:id="@+id/bt_filter"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Filter"
+                android:textOn="Filter"
+                android:textOff="Filter"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_below="@+id/topPanel"
+            android:layout_above="@+id/bottomPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#808080"
+            android:id="@+id/iv_main"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+
+        <LinearLayout
+            android:id="@+id/bottomPanel"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:id="@+id/bt_points"
+                android:layout_width="70dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Points"
+                android:textOn="Points"
+                android:textOff="Points"/>
+
+            <ToggleButton
+                android:id="@+id/bt_accessory"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Accessory"
+                android:textOn="Accessory"
+                android:textOff="Accessory"/>
+
+            <ToggleButton
+                android:id="@+id/bt_foreground"
+                android:layout_width="110dp"
+                android:layout_height="36dp"
+                android:padding="0dp"
+                android:text="Foreground"
+                android:textOn="Foreground"
+                android:textOff="Foreground"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</FrameLayout>

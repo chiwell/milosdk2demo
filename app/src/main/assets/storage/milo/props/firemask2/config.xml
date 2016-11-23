@@ -1,0 +1,44 @@
+<data>
+	<decoration>
+		<info name="05_004001" uuid="05_004001" description="05_004001" category="0" thumb="05_004001_t.png" type="Sticker" />
+		<visible value="true" />
+		<trackable value="true" />
+		<image name="05_004001.png" />
+		<neutralAnimation gapFrameCount="0" >
+			<image name="05_004001.png" />
+		</neutralAnimation>
+		<animations>
+			<animation looping="false" name="1" objectTrackCompatible="false" objectTrackGapFramesCount="0" reversible="false" type="ImageSequence" >
+				<triggle expression="MouthAh" threshold="0.5" repeatTimes="1" type="Expression" />
+				<images gapFrameCount="0" >
+					<image name="05_004001_01_01.png" />
+					<image name="05_004001_01_02.png" />
+					<image name="05_004001_01_03.png" />
+					<image name="05_004001_01_04.png" />
+					<image name="05_004001_01_05.png" />
+					<image name="05_004001_01_06.png" />
+					<image name="05_004001_01_07.png" />
+					<image name="05_004001_01_08.png" />
+					<image name="05_004001_01_09.png" />
+					<image name="05_004001_01_10.png" />
+					<image name="05_004001_01_11.png" />
+					<image name="05_004001_01_12.png" />
+					<image name="05_004001_01_13.png" />
+					<image name="05_004001_01_14.png" />
+					<image name="05_004001_01_15.png" />
+					<image name="05_004001_01_16.png" />
+					<image name="05_004001_01_17.png" />
+					<image name="05_004001_01_18.png" />
+					<image name="05_004001_01_19.png" />
+					<image name="05_004001_01_20.png" />
+					<image name="05_004001_01_21.png" />
+					<image name="05_004001_01_22.png" />
+					<image name="05_004001_01_23.png" />
+					<image name="05_004001_01_24.png" />
+				</images>
+			</animation>
+		</animations>
+		<transformInfo centerOffset="1.00,1.00" rotation="0.00" baseScale="100.00" maxSize="100.00" />
+		<placeInfo horizontalAlign="Center" scaleMode="AspectFillInside" verticalAlign="Center" margin="0.0" />
+	</decoration>
+</data>

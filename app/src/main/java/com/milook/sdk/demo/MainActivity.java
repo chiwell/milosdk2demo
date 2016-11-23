@@ -15,7 +15,7 @@ import com.milook.sdk.MiloSDKListener;
 import com.milook.sdk.lib.Test;
 import com.milook.sdk.MiloSDK;
 
-public class MainActivity extends AppCompatActivity implements MiloSDKListener {
+public class MainActivity extends AppCompatActivity implements MiloSDKListener{
 
     RelativeLayout flMain;
     ImageView ivMain;
@@ -127,6 +127,8 @@ public class MainActivity extends AppCompatActivity implements MiloSDKListener {
                 if(decoMask.equals("")) decoMask="firemask2";
                 else decoMask="";
                 setDeco();
+
+                //MiloSDK.ProcessFrame(null, "{\"width\":100, \"height\":200, \"cameraID\":1}");
             }
         });
 
